@@ -1,0 +1,60 @@
+/* Style for texts */
+.title {
+    font-weight: bold;
+    font-size: 70px;
+    color: black;
+}
+
+#title2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#subtitle{
+    font-weight: bold;
+    font-size: 27px;
+    color: black;
+}
+
+.simple-black-text{
+    color:black;
+}
+
+.simple-white-text{
+    color: white;
+    font-size: 25px;
+}
+ /* Style for divs */
+#frstcont {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#btncont {
+    margin-top: 40px;
+}
+
+/* Class for buttons */
+.btn{
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 20px 60px;
+}
+
+/* Style for the information button */
+#btn-information{
+    background-color: Transparent;
+    color:black;
+    border: 2px solid black;
+}
+
+/* Background image of the second section */
+#section-background{
+    background-image: url("b2.jpg");
+    background-color: coral;
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}

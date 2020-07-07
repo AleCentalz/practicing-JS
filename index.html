@@ -5,39 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Spotify</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!------------Navbar -------------------------->
+
     <!------------First section ------------------->
-    <section class="section is-medium">
-      <div class="container has-text-centered">
-        <h1 class="title is-1 pb-6">Obtén 3 meses de Premiun por $9.00</h1>
+    <section class="section is-small" style="background-color: #ffccd3;">
+      <div id= "frstcont" class="container has-text-centered">
+        <h1 class= "title" >Obtén 3 meses de Premium por $ 9.00</h1>
       </div>
       <div class="container has-text-centered">
-        <h2 class="subtitle is-3 pb-3">Disfruta de música ilimitada y sin anuncios, jeje </h2>
-        <div class="container has-text-centered">
-          <button class="button is-success is-rounded">Obtener ahora</button>
-          <button class="button is-rounded">Más información</button>
-          <div class="pt-2">
-            <p>Después s aplica una tarifa de mucho dinero porque la prueba no es para siempre jeje y usted </br>
-              tiene que pagar por nuestro servicio. Aplica terminos y condiciones y no sé que más blabalblablablablabalabla
-            </p>
-          </div>          
+        <h2 id="subtitle">Disfruta de música ilimitada y sin anuncios, incluso en modo offline. </h2>
+        <div id="btncont" class="container has-text-centered">
+          <button class="btn button is-success">OBTENLO AHORA</button>
+          <button id="btn-information" class="btn button">MÁS INFOMACIÓN</button>        
         </div>
+        <div class="pt-4">
+          <p class="simple-black-text">Después, se aplica una tarifa de suscripción mensual. La oferta no está disponible para usuarios que hayan </br>
+            probado Premium. <u>Aplica Términos y Condiciones</u>. La oferta termina el _______.</p>
+        </div>  
       </div>
     </section>
-    <!------------First section ------------------->
-    <section class="section">
-      <div class="container has-text-centered py-4">
-        <h1 class="title is-1">Spotify Free</h1>
+    <!------------Second section ------------------->
+    <section id="section-background" class="section" >
+      <div class="container has-text-centered py-6">
+        <h1 class="title" id="title2">Spotify Free</h1>
       </div>
       <div class="container has-text-centered">
-        <h2 class="subtitle">Millones de canciones, no se necesita tarjeta</h2>
-        <button class="button is-success is-rounded">Obtener Spotify Free</button>
+        <h2 class="simple-white-text">Millones de canciones. No necesitas tarjeta de crédito.</h2>
+        <div id="btncont" class="container has-text-centered">
+          <button class="btn button is-success">OBTENER SPOTIFY FREE</button>
+        </div>
       </div>
     </section>
   </body>
 </html>
-
-<!--------* Entender mejor la diferencia entre un div y un section
-          * Qué es SASS y cómo agregar/organizar otro css jiojio
-        -->
