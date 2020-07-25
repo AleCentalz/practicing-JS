@@ -7,37 +7,58 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <!------------Navbar -------------------------->
+    <nav>
+      <div>
+        <a href="index.html">
+          <img src="images/spotify-logo.png" alt="Spotify Logo">
+        </a>
+      </div>  
+      <a href="#">Premium</a>
+      <a href="#">Ayuda</a>
+      <a href="#">Descargar</a>
+      <p>|</p>
+      <a href="#" class="cuenta">Regístrate</a>
+      <a href="#" class="cuenta">Inicio de sesión</a>
+    </nav>
 
+    <main>
     <!------------First section ------------------->
-    <section class="section is-small" style="background-color: #ffccd3;">
-      <div id= "frstcont" class="container has-text-centered">
-        <h1 class= "title" >Obtén 3 meses de Premium por $ 9.00</h1>
-      </div>
-      <div class="container has-text-centered">
-        <h2 id="subtitle">Disfruta de música ilimitada y sin anuncios, incluso en modo offline. </h2>
-        <div id="btncont" class="container has-text-centered">
-          <button class="btn button is-success">OBTENLO AHORA</button>
-          <button id="btn-information" class="btn button">MÁS INFOMACIÓN</button>        
+      <section class="section is-small" style="background-color: #ffccd3;">
+        <div id= "frst-cont" class="container has-text-centered">
+          <h1 class= "title" >Obtén 3 meses de Premium por $ 9.00</h1>
         </div>
-        <div class="pt-4">
-          <p class="simple-black-text">Después, se aplica una tarifa de suscripción mensual. La oferta no está disponible para usuarios que hayan </br>
-            probado Premium. <u>Aplica Términos y Condiciones</u>. La oferta termina el _______.</p>
-        </div>  
-      </div>
-    </section>
-    <!------------Second section ------------------->
-    <section id="section-background" class="section" >
-      <div class="container has-text-centered py-6">
-        <h1 class="title" id="title2">Spotify Free</h1>
-      </div>
-      <div class="container has-text-centered">
-        <h2 class="simple-white-text">Millones de canciones. No necesitas tarjeta de crédito.</h2>
-        <div id="btncont" class="container has-text-centered">
-          <button class="btn button is-success">OBTENER SPOTIFY FREE</button>
+        <div class="container has-text-centered">
+          <h2 id="subtitle">Disfruta de música ilimitada y sin anuncios, incluso en modo offline. </h2>
+          <div class="container has-text-centered btn-cont">
+            <button class="btn-is-rounded button is-success">OBTENLO AHORA</button>
+            <button id="btn-information" class="btn-is-rounded button">MÁS INFOMACIÓN</button>        
+          </div>
+          <div class="pt-4">
+            <p class="simple-black-text">Después, se aplica una tarifa de suscripción mensual. La oferta no está disponible para usuarios que hayan </br>
+              probado Premium. <u>Aplica Términos y Condiciones</u>. La oferta termina el _______.</p>
+          </div>  
         </div>
-      </div>
-    </section>
+      </section>
+      <!------------Second section ------------------->
+      <section class="section section-background" >
+        <div class="container has-text-centered py-6">
+          <h1 class="title2">Spotify Free</h1>
+        </div>
+        <div class="container has-text-centered">
+          <h2 class="simple-white-text">Millones de canciones. No necesitas tarjeta de crédito.</h2>
+          <div class="container has-text-centered btn-cont">
+            <button class="btn-is-rounded button is-success">OBTENER SPOTIFY FREE</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!------------ Footer -------------------------->
+    <footer>
+
+    </footer>
+
   </body>
 </html>
