@@ -1,15 +1,22 @@
-nav {
-    background-color: black;
-    height: 80px;
-    width: 2000px;
+header {
+    background-color:black;
     display: flex;
+    height: 80px;
+    /* stick nav when scroll and top of everything*/
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
-nav img {
+.logo {
    height: 41px;
-   margin-right: 450px;
    margin-left: 105px;
    width: 132px;
+}
+
+nav {
+   margin-left: 450px;
+   display: flex;
 }
 
 nav a, p {
@@ -22,12 +29,9 @@ nav a, p {
    margin-top: 30px;
 }
 
-nav a:hover {
-   color:rgb(25, 219, 25);
-} 
-
 .background {
    background-color: #ffccd3;
+   padding-top: 100px;
 }
 
 .title {
@@ -76,3 +80,42 @@ nav a:hover {
    background-color: transparent;
    border: 2px solid black
 }           
+
+footer {
+   background-color: black ;
+   display: inline-block;
+   height: 573px;
+   width: 100%;
+}
+
+.logo-footer {
+   height: 41px;
+   margin-left:30px;
+   width: 132px 
+}
+
+dt,dd {
+   font-size: 0.90rem;
+   padding: 10px 0
+}
+
+a:hover {
+   color:rgb(25, 219, 25)
+}
+
+footer a {
+   color: white
+}
+
+footer i {
+   color: white;
+   font-size: 10rem
+}
+
+.nav-bottom {
+   display: block;
+   height: 50px;
+   font-size: small;
+   margin:140px 0 0 80px;
+   width: 1100px
+}
