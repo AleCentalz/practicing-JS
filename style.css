@@ -19,6 +19,14 @@ nav {
    display: flex;
 }
 
+.text-grey {
+   color: hsl(0, 0%, 48%);
+}
+
+.text-light-grey {
+   color: hsl(0, 0%, 86%);
+}
+
 nav a, p {
    color: white;
    font-family: Arial, Helvetica, sans-serif;
@@ -44,16 +52,6 @@ nav a, p {
    font-size: 4.2em;
    font-weight: bold;
    margin-bottom: 30px
-}
-
-.subtitle {
-   font-size: 1.7rem;
-   font-weight: bold
-}
-
-.simple-white-text {
-   color: white;
-   font-size: 1.5rem
 }
 
 .frst-cont {
@@ -103,19 +101,18 @@ a:hover {
    color:rgb(25, 219, 25)
 }
 
-footer a {
+dl a {
    color: white
 }
 
-footer i {
+.icons {
    color: white;
-   font-size: 10rem
+   font-size: 100px;
 }
 
 .nav-bottom {
    display: block;
-   height: 50px;
-   font-size: small;
-   margin:140px 0 0 80px;
+   margin-left:105px;
    width: 1100px
 }
+
