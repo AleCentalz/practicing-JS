@@ -1,0 +1,118 @@
+header {
+    background-color:black;
+    display: flex;
+    height: 80px;
+    /* stick nav when scroll and top of everything*/
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+   height: 41px;
+   margin-left: 105px;
+   width: 132px;
+}
+
+nav {
+   margin-left: 450px;
+   display: flex;
+}
+
+.text-grey {
+   color: hsl(0, 0%, 48%);
+}
+
+.text-light-grey {
+   color: hsl(0, 0%, 86%);
+}
+
+nav a, p {
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1rem;
+   font-weight: bold;
+   text-decoration: none;
+   padding-right: 30px;
+   margin-top: 30px;
+}
+
+.background {
+   background-color: #ffccd3;
+   padding-top: 100px;
+}
+
+.title {
+   font-weight: bold;
+   font-size: 4.2em;
+}
+
+.title-secondary {
+   color: white;
+   font-size: 4.2em;
+   font-weight: bold;
+   margin-bottom: 30px
+}
+
+.frst-cont {
+   width: 80%
+}
+
+.section-background {
+   background-color: coral;
+   background-image: url("images/background.jpg");
+   background-position: center; 
+   background-repeat: no-repeat; 
+   background-size: cover;
+   height: 500px
+}
+
+.btn-is-rounded {
+   border-radius: 50px;
+   font-size: 14px;
+   font-weight: bold;
+   padding: 20px 60px
+}
+
+.btn-information {
+   background-color: transparent;
+   border: 2px solid black
+}           
+
+footer {
+   background-color: black ;
+   display: inline-block;
+   height: 573px;
+   width: 100%;
+}
+
+.logo-footer {
+   height: 41px;
+   margin-left:30px;
+   width: 132px 
+}
+
+dt,dd {
+   font-size: 0.90rem;
+   padding: 10px 0
+}
+
+a:hover {
+   color:rgb(25, 219, 25)
+}
+
+dl a {
+   color: white
+}
+
+.icons {
+   color: white;
+   font-size: 100px;
+}
+
+.nav-bottom {
+   display: block;
+   margin-left:105px;
+   width: 1100px
+}
+
